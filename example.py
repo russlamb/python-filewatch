@@ -6,6 +6,7 @@ from watchdog.events import LoggingEventHandler
 import os
 
 def watch_directory(path):
+    'This is the example provided by the Watchdog library documentation'
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S')
